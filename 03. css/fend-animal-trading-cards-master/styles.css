@@ -1,0 +1,38 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+.card, .information {
+	border: solid 1px lightgray;
+}
+.card, .information, .image {
+	border-radius: 4px;
+}
+.card {
+	height: 485;
+	width: 300px;
+	padding: 0 12px 12px;
+	background-color: #ffebcd;
+	box-shadow: 10px 10px 5px rgba(153,153,153,0.5);
+}
+.image {
+    display: block;
+    margin: 12px auto;
+}
+.information {
+	padding: 10px;
+	background-color: #fff;
+}
+.fact, .description {
+	font-size: 0.9em;
+}
+.fact {
+	font-style: italic;
+}
+.label-list {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.label {
+	font-weight: bold;
+}
