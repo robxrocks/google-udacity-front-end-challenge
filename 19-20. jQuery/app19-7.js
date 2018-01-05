@@ -18,6 +18,9 @@ $('#input').on('change', function() {
 	//or
 	val = $('#input');
 	val.siblings('h1').text(val.val());
+	
+	//or
+	$(this).siblings('h1').text($(this).val());
 });
 
 //more fun
